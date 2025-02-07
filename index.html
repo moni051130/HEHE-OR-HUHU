@@ -60,20 +60,20 @@
   <script>
     const responseDiv = document.getElementById("response");
 
-    // Use local file names (GIFs must be in the same folder as this HTML file)
+    // Replace these with the correct paths to your uploaded GIFs
     const cuteGifUrl = "spread heart.gif"; // Happy GIF
     const sadGifUrl  = "sad.gif";  // Sad GIF
 
     document.getElementById("yesButton").addEventListener("click", function() {
       responseDiv.innerHTML = `
         <p>Yay! You made my day! I LOVE YOU SO MUCH! 💖</p>
-        <img src="${cuteGifUrl}" alt="spread heart.gif">
+        <img src="${cuteGifUrl}" alt="Cute GIF">
       `;
     });
 
     document.getElementById("noButton").addEventListener("click", function() {
       responseDiv.innerHTML = `
-        <p>Oh no... 💔 But I still think you're amazing!</p>
+        <p>Oh no... 💔 Ayaw mo na sakin?! WUV PA DIN KITA KUNG GANON</p>
         <img src="${sadGifUrl}" alt="Sad GIF">
       `;
     });
