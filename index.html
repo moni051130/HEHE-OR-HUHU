@@ -60,7 +60,7 @@
   <script>
     const responseDiv = document.getElementById("response");
 
-    // Replace these with the correct paths to your uploaded GIFs
+    // Use local file names for the GIFs (same folder as the HTML file)
     const cuteGifUrl = "spread heart.gif"; // Happy GIF
     const sadGifUrl  = "sad.gif";  // Sad GIF
 
@@ -73,7 +73,7 @@
 
     document.getElementById("noButton").addEventListener("click", function() {
       responseDiv.innerHTML = `
-        <p>Oh no... 💔 Ayaw mo na sakin?! WUV PA DIN KITA KUNG GANON</p>
+        <p>Oh no... 💔 But I still think you're amazing!</p>
         <img src="${sadGifUrl}" alt="Sad GIF">
       `;
     });
